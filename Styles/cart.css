@@ -1,0 +1,78 @@
+/* Cart css */
+
+/* texts and button */
+
+.text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 20px;  
+}
+.homeBtn,.checkout,.removeall{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #dad7cd;
+    background: black;
+    font-size: 18px;
+    padding: 14px;
+    border: 0px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+.homeBtn:hover,.checkout:hover,.removeall:hover{
+    color: black;
+    background: #dad7cd;
+}
+
+/* End of texts and button */
+
+/* Cart items in bill */
+
+.shopping-cart{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    display: grid;
+    grid-template-columns: repeat(1,320px);
+    justify-content: center;
+    gap: 15px;
+    margin-bottom:50px ;
+}
+
+.cart-item{
+    display: flex;
+    border: 1px solid black;
+}
+
+.title-price-x{
+    display: flex;
+    width: 218px;
+    justify-content: space-between;
+     padding: 8px 8px 0px 8px;
+}
+.title-price{
+    display: flex;
+    width: 150px;
+}
+.price-badge{
+    background: #dad7cd;
+    color: black;
+    border-radius: 4px;
+    padding: 4px;
+    margin-left: 9px;
+    height: 32px;
+}
+.buttons{
+    font-size: 18px;
+    margin-left: 9px;
+}
+.individual-total-price{
+    margin: 3px 0px 0px 9px;
+}
+.checkout,.removeall{
+    width: 110px;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+/* End of Cart items in bill */
+
+/* End of Cart css */
